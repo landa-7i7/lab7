@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/777/Desktop/lab7/build",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe   -g -std=c++17 -o CMakeFiles\\example.dir\\main.cpp.obj -c C:\\Users\\777\\Desktop\\lab7\\main.cpp",
+  "file": "C:/Users/777/Desktop/lab7/main.cpp",
+  "output": "CMakeFiles/example.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/777/Desktop/lab7/build",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe   -g -std=c++17 -o CMakeFiles\\example.dir\\MatrixOperations.cpp.obj -c C:\\Users\\777\\Desktop\\lab7\\MatrixOperations.cpp",
+  "file": "C:/Users/777/Desktop/lab7/MatrixOperations.cpp",
+  "output": "CMakeFiles/example.dir/MatrixOperations.cpp.obj"
+}
+]
