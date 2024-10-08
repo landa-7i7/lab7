@@ -28,6 +28,39 @@ namespace MatrixOperations {
         return true;
     }
 
+    vector<long long> BogoSort(vector<long long>& a) {
+        long long ln = a.size();
+        if (ln <= 1) {
+            return a;
+        }
+        
+        if (set<long long>(a.begin(), a.end()).size() == 1) {
+            return a;
+        }
+        
+        double avg_a = accumulate(a.begin(), a.end(), 0.0) / ln;
+        vector<long long> l, r;
+
+        for (long long x : a) {
+            if (x < avg_a) {
+                l.push_back(x);
+            } else {
+                r.push_back(x);
+            }
+        }
+
+        // Recursively sort the left and right halves
+        l = BogoSort(l);
+        r = BogoSort(r);
+
+        vector<long long> result;
+        result.reserve(ln);
+        result.insert(result.end(), l.begin(), l.end());
+        result.insert(result.end(), r.begin(), r.end());
+
+        return result;
+    }
+
     void processMatrix(vector<vector<int>>& matrix, int& i, int& j) {
         bool hasDuplicateColumn = false;
         bool hasPrimeElement = false;
