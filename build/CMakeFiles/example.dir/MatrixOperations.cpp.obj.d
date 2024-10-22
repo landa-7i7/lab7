@@ -151,6 +151,17 @@ CMakeFiles/example.dir/MatrixOperations.cpp.obj: \
   C:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
   C:/msys64/mingw64/include/c++/14.2.0/istream \
   C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/numeric \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
+  C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
+  C:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
+  C:/msys64/mingw64/include/c++/14.2.0/set \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_tree.h \
+  C:/msys64/mingw64/include/c++/14.2.0/ext/aligned_buffer.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/node_handle.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_set.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_multiset.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
   C:/msys64/mingw64/include/c++/14.2.0/algorithm \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algo.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
@@ -158,7 +169,6 @@ CMakeFiles/example.dir/MatrixOperations.cpp.obj: \
   C:/msys64/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
   C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
-  C:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
   C:/msys64/mingw64/include/c++/14.2.0/cmath \
   C:/msys64/mingw64/include/math.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/specfun.h \
